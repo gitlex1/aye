@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     /*Reemplazar aqui los links de cada linea segun corresponda*/
     $('#lineaA').FeedEk({
-        FeedUrl : 'https://www.clarin.com/rss/politica/',
+        FeedUrl : 'http://172.30.180.10:3021/scp/rss.xml/A',
         MaxCount: 1,
         ShowDesc: true,
         ShowPubDate: false,
